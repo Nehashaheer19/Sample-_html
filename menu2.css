@@ -1,0 +1,80 @@
+h1{
+    color: black;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    
+    
+}
+.name a{
+    text-decoration: none;
+    text-align: left;
+    font-style: oblique;
+    color: #fc03a9;
+}
+
+.name li{
+    list-style-type: none;
+    font-size: large;
+    margin: 5px;
+    margin-left: 100px;
+}
+.hi{
+    color: black;
+    font-size: large;
+    margin-left: 110px;
+    margin-top: 50px;
+    background-color: beige;
+    width: 20%;
+    
+}
+.hii{
+    font-size: large;
+    text-align:right;
+    margin-right: 160px;
+    margin-top: 100px;
+   
+    
+}    
+.name1 a{
+    text-decoration: none;
+    font-style: oblique;
+    color: #fc03a9;
+}
+.name1 li{
+    list-style-type: none;
+    font-size: large;
+    margin: 5px;
+    text-align: right;
+    margin-right: 110px ;
+
+}
+.name2 a{
+    text-decoration: none;
+    font-style: oblique;
+    color: #ff08ad;
+}
+.name2 li{
+    list-style-type: none;
+    font-size: large;
+    margin: 5px;
+    text-align: left;
+    margin-left: 100px ;
+
+}
+.hiii{
+    margin-top: 100px;
+    margin-left: 110px;
+    font-style: normal;
+    background-color: beige;
+    width: 20%;
+   
+
+}
+body{
+    background-image: url(cafe.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no repeat;
+}

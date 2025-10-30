@@ -1,0 +1,68 @@
+body{
+    background-color:rgb(212, 151, 184);
+    background-image: url(menu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no repeat;
+    background-blend-mode: overlay;
+}
+    
+h2{
+    text-align: center;
+    color: rgb(193, 4, 98);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: xxx-large;
+}
+.h1{
+    text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.p1{
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: larger;
+}
+.h2{
+    text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
+.p2{
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: large;
+}
+
+.h3{
+     text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
+.p3{
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: large;
+}
+.h4{
+     text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
+.p4{
+   text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: large;  
+}

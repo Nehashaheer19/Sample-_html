@@ -1,0 +1,12 @@
+h{
+    font-family: 'Times New Roman', Times, serif;
+}
+#name{
+    font-size: medium;
+}
+.class1{
+    font-weight: bold;
+}
+.class2{
+    font-style: italic;
+}
