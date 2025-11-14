@@ -1,0 +1,6 @@
+div{
+    background-color: aquamarine;
+    min-width: 70px;
+    min-height:20px ;
+    overflow: hidden;
+}

@@ -1,0 +1,18 @@
+.container{
+     display: flex;
+     flex-direction: row;
+     gap:20px;
+     justify-content: center;
+     background-color: pink;
+     height:200px;
+     align-items: center;
+     
+
+     
+     
+}
+.box{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 8px;
+}
