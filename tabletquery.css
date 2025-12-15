@@ -1,0 +1,37 @@
+/* mobile */
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.item{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(184, 13, 13);
+    padding: 10px;
+}
+/* Tablet */
+@media(min-width:600px){
+    .container{
+        grid-template-columns: repeat(2,2fr);
+    }
+     .item{
+            background-color: pink;
+            font-weight: b0ld;
+        }
+    
+}
+/* Destop */
+@media(min-width:900px){
+    .container{
+        grid-template-columns: repeat(3,2fr);
+    }
+        .item{
+            background-color: rgb(167, 126, 133);
+            font-weight: bolder ;
+        } 
+    
+}

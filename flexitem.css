@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    gap:20px;
+    background-color: crimson;
+    padding:50px;
+}
+.item{
+    background-color: pink;
+    padding: 20px;
+}
+.item1{
+    flex-grow: 1;
+}
+.item2{
+    flex-grow: 4;
+}
+.item3{
+    flex-grow: 1;
+}

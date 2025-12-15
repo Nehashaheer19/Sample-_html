@@ -1,0 +1,101 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: rgb(139, 244, 240);
+    margin-left: -10px;
+    height: 80px;
+    width: 150px;
+    padding-top: 50px;
+    padding-left: 10px;
+    color: white;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+
+
+}
+.lyst{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+    
+}
+.lyst a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.381);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para{
+    margin-top: 200px;
+    width: 650px;
+    margin-left: 50px;
+}
+.main{
+    max-width: 1400px;
+    min-height: 680px;
+    margin: 30px auto;
+    /*auto kodknne content centerk align cheyyaan */
+    background-color: white;
+    
+    
+}
+
+body{
+    background-color: rgb(237, 248, 255);
+    overflow-y: hidden;
+
+}
+.class1{
+    font-size: 70px;
+    color: orange;
+    font-family: sans-serif;
+    margin-left: -15px;
+    
+}
+.class2{
+    font-size: 70px;
+    color: rgb(127, 217, 227);
+    font-family: sans-serif;
+}
+p{
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.347);
+    font-family: sans-serif;
+    width: 480px;
+    margin-top: 25px;
+}
+button{
+    padding: 5px 30px;
+    border-radius: 50px;
+    color: aliceblue;
+    background-color: orange;
+    margin-top: 30px;
+    margin-left:400px ;
+    border: none;
+    cursor: pointer;
+
+}
+.pics{
+    display: flex;
+
+}
+.image{
+    width:500px;
+    margin-top: 150px;
+    margin-left: 100px;
+    
+}
+.image img{
+    width: 480px;
+    height:450px
+}
+.ima img{
+     margin-top: -5px;
+}

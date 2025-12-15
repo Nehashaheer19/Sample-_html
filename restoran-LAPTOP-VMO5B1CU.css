@@ -1,0 +1,103 @@
+.main{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:8px 16px;
+    
+    
+}
+.logo{
+    color:orange;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-family:sans-serif
+   
+
+}
+
+
+.lyst{
+    list-style: none;
+    display:flex;
+    gap: 20px;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-right: -700px;
+
+    
+}
+.lyst a{
+    text-decoration: none;
+    color:white;
+    
+
+}
+body{
+    background-color: black;
+     background:
+    linear-gradient(rgba(22,22,36,0.918),rgba(22,22,36,0.918)),url(fried-steak-pieces-wooden-board-garlic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-x: hidden;
+    overflow-y: hidden; 
+
+    
+}
+.login-btn{
+    padding: 10px 15px;
+    background-color: #f4a025;
+    border: none;
+    color: white;
+    font-weight:bold ;
+    font-size: 12px;
+    font-family: sans-serif;
+    /* margin-left: 500px; */
+    cursor: pointer; 
+}
+.btn{
+   padding: 10px 15px;
+    background-color: #f4a025;
+    border: none;
+    color: white;
+    font-weight:bold ;
+    font-size: 12px;
+    font-family: sans-serif;
+    cursor: pointer; 
+    margin-top: 10px;
+}  
+.sub{
+    margin-top: 90px;
+    width:900px;
+    
+
+}
+p{
+    line-height:1.4;
+    font-family: sans-serif;
+    margin-top: -5px;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:  800;
+    line-height: 1.4;
+    font-size: 50px;
+}
+.both{
+    display: flex;
+}
+.image{
+     margin-top: 110px;
+     margin-left: 400px;
+     flex-direction: column;
+     text-align: center;
+}
+.image img{
+    width:910px;
+
+}

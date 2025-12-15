@@ -1,0 +1,40 @@
+body{
+    background-color:rgb(221, 245, 221) ;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(196, 115, 128);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.container > div{
+    width:20px;
+    height: 20px;
+    background-color: aliceblue;
+    margin: 3px;
+    border-radius: 50%;
+}
+.dot-1{
+    animation:typing 0.8s linear 0.1s infinite
+}
+.dot-2{
+    animation:typing 0.8s linear 0.2s infinite
+}
+.dot-3{
+    animation:typing 0.8s linear 0.3s infinite
+}
+@keyframes typing{
+0%{
+        transform: translasteY(0);
+    }
+50%{
+        transform: translateY(-20px);
+    }
+100%{
+        transform: translateY(0);
+    }
+}

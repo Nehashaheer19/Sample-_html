@@ -1,0 +1,29 @@
+/* mobile view vertically */
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 20px;
+    gap:10px;
+}
+.menu a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 17px;
+}
+/* tablet */
+@media(min-width:600px){
+    .menu{
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+}
+/* Destop */
+@media(min-width:900px){
+    .menu{
+        font-size: 20px;
+        color: brown;
+        background-color:pink;
+    }
+}

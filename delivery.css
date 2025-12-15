@@ -1,0 +1,83 @@
+ .main{
+   margin-left: 75px;
+   margin-right: 50px;
+
+ }
+ .navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    
+ }
+ .logo{
+    font-size: 25px;
+    font-family: poppins sans-serif;
+    
+ }
+  .nam{
+    background-color: rgb(255, 0, 51);
+    width:20px;
+    color: white;
+    padding:5px 8px;
+    border-radius: 5px;
+    font-weight: bolder;
+    
+ }
+ .lyst{
+    display: flex;
+    list-style: none;
+    gap:30px;
+    
+    
+ }
+ .lyst a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(19, 12, 12, 0.57);
+    font-family: sans-serif;
+ }
+ .cls{
+   margin-top: 230px;
+   display: flex;
+ }
+ .para{
+   width:500px;
+   line-height: 1.3;
+   font-family: sans-serif;
+ }
+ .head{
+   font-size: 48px;
+   font-weight:100px;
+   line-height: 1.5;
+
+ }
+ button{
+   background-color: rgb(225, 62, 90);
+   padding: 10px 15px;
+   border-radius: 3px;
+   border: none;
+   margin-top: 35px;
+   color: white;
+   font-family: sans-serif;
+   cursor: pointer;
+ }
+ .para1{
+  margin-top: 50px;
+  line-height: 1.5;
+  color: rgba(19, 12, 12, 0.655) ;
+  font-family: sans-serif;
+ }
+ .image{
+   margin-left: 650px;
+   margin-bottom: 100px;
+   position: absolute;
+   top: 180px;
+
+   
+ }
+ .image img{
+   height:600px;
+   width: 600px;
+   
+ }

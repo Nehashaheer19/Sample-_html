@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    color:white;
+}
+.name{
+    margin-left: 70px;
+    width:250px;
+}
+button{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+    
+.para1{
+    margin-left: 45px;
+    margin-top: -70px;
+}
+.image{
+    margin-top: 10px;
+    margin-right:50px;
+    
+}
+.image img{
+    border-radius: 8px;
+}
+.images{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    gap: 100px;;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+}
+.images img{
+    height: 200px;
+    width: 450px;
+    border-radius: 8px;
+
+}
+.c1{
+    border: 10px solid white;
+}
+.eva img{
+    width: 200px;
+    border-radius: 0px 0px 100px 100px;
+    width:180px;
+    height: auto;
+    
+
+}
+.eva{
+    position: absolute;
+    top:17.5px;
+    
+    margin-left: 500px;
+    display: flex;
+    gap:20px;
+    
+}

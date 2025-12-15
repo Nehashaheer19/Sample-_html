@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    background-color: blueviolet;
+}
+div{
+    margin:5px;
+    background-color: aqua;
+    width:200px;
+    height: 200px;
+    animation: move 2s infinite; 
+    transition: 1s  ease-in;
+}
+div:hover{
+    animation-play-state: paused;
+    background-color: greenyellow;
+    /* transform: rotateZ(180deg); */
+    transform: translate(100px,200p);
+} 
+    
+@keyframes move {
+    /* from{
+        width:200px
+    }
+    to{
+        width: 600px;
+    } */
+    0%{
+        width:200px;
+        height:300px;
+         
+    }
+    50%{
+        width:600px;
+        height:800px;
+        background-color:purple;  
+    }
+   100%{
+        width:200px;
+        height:300px;
+        background-color:burlywood;
+   }
+}

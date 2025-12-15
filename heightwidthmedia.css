@@ -1,0 +1,13 @@
+.box{
+    background-color: pink;
+    padding: 20px;
+    border: 2px dashed darkblue;
+    /* height limit */
+    min-width: 200px;
+    max-width: 400px;
+    /* width limit */
+    min-height: 150px;
+    max-height: 250px;
+    margin: auto;
+    overflow-y: auto;
+}

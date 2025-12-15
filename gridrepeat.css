@@ -1,0 +1,13 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,2fr);
+    gap: 10px;
+}   
+.item{
+
+    background-color: pink;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    color: aliceblue;
+}
