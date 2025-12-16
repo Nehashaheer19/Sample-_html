@@ -24,7 +24,7 @@
     margin-top: 33px;
     font-size: xx-large;
     margin-left: 800px;
-    position: relative;
+    /* position: relative; */
     font-family: "Segoe UI Light", "Segoe UI", sans-serif;
 }
 .main{
@@ -76,7 +76,7 @@
          color: white;
         font-size: 70px;
         font-weight:  bold;
-        position: relative;
+        /* position: relative; */
         font-family: Encode Sans Condensed;
         margin-left: 20px;
         top: 10px;
@@ -304,9 +304,7 @@
         font-size: Encode Sans Condensed;
     }
         
-    .para{
-        position: relative;
-    }
+   
     .container{
         display:grid;
         grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
