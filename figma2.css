@@ -1,0 +1,245 @@
+.main{
+     overflow-x: hidden; 
+}
+.navbar{
+    display: flex;
+     height:50px;
+    width:100%;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.logo{
+  font-weight: 700px;
+  font-family:Kulim Park;
+  font-size: 24px; 
+  color: black; 
+  line-height: 100%;
+  margin-top: 15px; 
+}
+.lystt{
+    width: 500px;
+    height: 20px;
+
+}
+.lyst{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-family: inter;
+    font-weight: 500px;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    text-align: right;
+} 
+.lyst a{
+    text-decoration: none;
+    color: black;
+    font-family: inter;
+}
+.btn{
+   color: white;
+   background-color: black;
+    font-family: inter;
+   font-size: 16px;
+   font-weight: 500px; 
+  padding: 10px 20px;
+   border-radius: 50px;
+    width: 100px;
+    height: 35px;
+   cursor: pointer;
+   border: none;
+   margin-right: 50px;
+}
+.div1{
+    display: flex;
+    width:100%;
+    height: 500px;
+    padding-top: 150px;
+    padding-left:100px ;
+    /* padding-right:100px ;
+    padding-bottom: 64px; */
+    gap: 260px;
+   
+}
+.h1{
+  width: 531px;
+  height: 337px;  
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
+  
+}
+.p1{
+     font: inter; 
+   font-weight: bolder;
+   font-size: 50px;
+     line-height: 100%;
+    width: 530px;
+    height: 80px;
+   
+}
+.p2{
+    font: inter;
+    font-weight: 300px;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.inner{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+.btn1{
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: #ffcf23;
+  height: 35px;
+  margin-top: 20px;
+}
+.rec{
+    font-family: inter;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.div2{
+    width: 100%;
+    height: 250px;
+  background-color:#f3f3f3;
+    display: flex;
+    gap: 100px;
+    /* justify-content: space-between; */
+   
+}
+.d1{
+    width: 350px;
+    height:150px;
+    margin-top: 75px;
+    margin-left: 100px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px ;
+    
+}
+.d2{
+    width:350px;
+    height:125px;
+    margin-top: 75px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px ;
+    
+}
+
+.d3{
+   width: 350px;
+    height:150px;
+    margin-top: 75px; 
+    margin-right: 100px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px ;
+
+}
+.div3{
+     display: flex;
+    flex-direction: row; 
+    width:100%;
+    height: 500px;
+    background-color:black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    gap: 150px;
+}
+.pic{
+ margin-top: 70px;
+ margin-bottom:70px ;
+ margin-left: 100px;
+
+}
+.lyst1{
+    width: 450px;
+    height: 280px;
+    font: inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-top: 125px;
+    color: white;
+}
+.div4{
+    background-color: white;
+    display: flex;
+    height: 500px;
+    width: 100%;
+
+}
+.g1{
+    width: 650px;
+    background-color: #f3f3f3;
+     padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px; 
+    font-family: inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    height: 350px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left:70px ;
+    margin-right: 70px;
+    border-radius: 8px;
+
+
+}
+.image2{
+    margin-top: 50px;
+
+}
+.img1{
+    margin-top: 50px;
+}
+.div5{
+    width: 100%;
+    height: 680px;
+}
+.div5 img{
+    width: 100%;
+    height: 680px;
+}
+.div6{
+    width:100%;
+    height:350px;
+    background-color: black;
+    color: white;
+}
+.last{
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+   padding-top: 50px;
+}
+.para4{
+    font-size: 16px;
+    font-family: inter;
+}
+button{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding-right: 80px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
